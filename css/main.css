@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    background-color: rgb(253, 191, 202);
+    box-sizing: border-box;
+}
+
+.destacados {
+    font-size: 2.8em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+.encabezado{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+/* section {
+    font-size: 15px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px; 
+} */
+
+.descripcion-destacados {
+    line-height: 1;
+    color: rgb(32, 189, 40);
+    padding: ;
+    font-size: 0.7em; 
+    font-weight: 900;
+}
+
+.img-producto {
+    width: 12.5em;
+    height: 15.6em;
+}
+
+.producto-destacado {
+    text-align: justify;
+    width: 7.5em;
+    display: inline-table;
+    margin: 1.5em;
+    transition: all 1s;
+}
+
+.producto-destacado:hover {
+    transform: scale(1.5);
+}
+
+.cuadro-consulta {
+    width: 16.2em;
+    height: 9.4em;
+    margin:auto;
+    text-align: center;
+    padding: 1.25em 0.9em;
+    border-top: 0.25em solid coral;
+    border-right: 0.25em solid coral;
+    border-left: 0.25em solid coral;
+    border-bottom: 0.25em solid coral;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.sobre-nosotros {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.posicion-destacados {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.grilla {
+    display: grid;
+    grid-template-areas: 
+        "nav nav nav"
+        "productos productos productos"
+        "productos productos productos"
+        "footer footer footer";
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: ;
+    justify-items: center;
+}
